@@ -1,5 +1,3 @@
-# markdown-challenge
-Personal intro (exo)
 # Leclercq Latifa
 > *Bien boire et bien manger font bien travailler*
 ###### Petite pile électrique
