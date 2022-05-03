@@ -1,0 +1,139 @@
+/* le % ici permet de mettre la taille de la typo à 10px */
+html {
+    background-image: url("../img/bg.jpg");
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+}
+header {
+    background: rgba(255,255,255,0.85);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+h1 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: deeppink;
+}
+
+blockquote {
+    padding: 1rem;
+    font-style: italic;
+}
+
+blockquote::before {
+    content: "❝";
+    padding: 1rem;
+}
+
+blockquote::after {
+    content: "❞";
+    padding: 1rem;
+}
+
+main {
+    background: rgba(255,255,255,0.85);
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 4rem;
+}
+
+section {
+    border-bottom: 1px dashed deeppink;
+    padding: 4rem 0;
+}
+
+section:first-child{
+    padding-top:0;
+}
+
+section:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+section.bg-grey{
+
+}
+
+section.bg-white{
+
+}
+
+section h3 {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+section h3 i {
+    color: #19f1df;
+    font-size: 3rem;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid deeppink;
+    width: 100%;
+}
+
+td, th {
+    padding: 1.5rem;
+    border: 1px solid deeppink;
+}
+
+thead th {
+    text-transform: uppercase;
+    background: deeppink;
+    color: white;
+}
+
+tbody th {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.list-checkbox>div {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+ul {
+    list-style: circle;
+    margin-left: 4rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: deeppink;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+footer span {
+    margin: 0 5rem;
+}
